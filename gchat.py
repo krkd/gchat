@@ -22,8 +22,7 @@ class Broadcaster(object):
 
     @classmethod
     def remove(cls, connection):
-        pass
-        # cls.connections.remove(connection)
+        cls.connections.remove(connection)
 
     @classmethod
     def count(cls):
